@@ -6,6 +6,7 @@ class Solution {
         return ans;
     }
     public void recurse(List<String> ans, int left, int right, String s, int n){
+        //if the string attains the length given -> if n then length of string should be n*2
         if(s.length() == n*2){
             ans.add(s);
             return;
